@@ -3,7 +3,8 @@ requires = ["setuptools>=77", "wheel"]
 build-backend = "setuptools.build_meta"
 [project]
 name = "cvp-ocsp-staple-review"
-version = "0.1.1"
+version = "0.1.2"
+authors = [{name = "dhtfish98"}]
 description = "Offline RFC 6960 single-response signature, issuer/serial binding, responder authorization, nonce and freshness verification with a pinned direct issuer."
 requires-python = ">=3.11"
 license = "MIT"

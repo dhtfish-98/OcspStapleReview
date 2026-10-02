@@ -1,5 +1,7 @@
 # OcspStapleReview
 
+New implementation author: **dhtfish98**. Package version: **0.1.2**.
+
 Offline RFC 6960 single-response signature, issuer/serial binding, responder authorization, nonce and freshness verification with a pinned direct issuer.
 
 This is an independently implemented, complete selected offline input profile. It is not an equivalent rewrite of the entire upstream platform. Cryptographic primitives use cryptography; no upstream application is called.

@@ -1,5 +1,7 @@
 # Origin and implementation scope
 
+The new independent implementation is authored by **dhtfish98** (package version **0.1.2**). Upstream works retain their original attribution and license notices in this document and `UPSTREAM_LICENSE`.
+
 OcspStapleReview independently implements this selected scope: Offline RFC 6960 single-response signature, issuer/serial binding, responder authorization, nonce and freshness verification with a pinned direct issuer.
 
 The research source is [digicert/pkilint](https://github.com/digicert/pkilint) at fixed commit `820a6146e255205b8b633de3e36856f011a628e3`. Source archive SHA-256: `0032bb47ccab1b72dc529944e581cfe4322d2b30e311d3a55b57b7133dd7ea62`. Its license is MIT; the exact source license notice is retained as `UPSTREAM_LICENSE`. The new application code and documentation are licensed under MIT (`LICENSE`). The upstream application is neither imported nor executed by the production package. No upstream application source is bundled in the production package.
