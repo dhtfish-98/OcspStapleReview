@@ -42,5 +42,5 @@ def audit(d):
     verify_x509(signer.public_key(),r.signature,r.tbs_response_bytes,r.signature_hash_algorithm,r.signature_algorithm_oid)
     status=single.certificate_status
     need(status!=ocsp.OCSPCertStatus.UNKNOWN,"OCSP status unknown")
-    if status==ocsp.OCSPCertStatus.REVOKED:need(single.revocation_time_utc is not None and single.revocation_time_utc<=now,"invalid or future OCSP revocation time")
+    if status==ocsp.OCSPCertStatus.REVOKED:need(single.revocation_time_utc is not None and single.revocation_time_utc<=single.this_update_utc,"OCSP revocation time exceeds status time")
     return {**report(verified=True,certificate_status=status.name.lower(),issuer_sha256=issuer.fingerprint(hashes.SHA256()).hex(),responder_sha256=signer.fingerprint(hashes.SHA256()).hex(),target_sha256=leaf.fingerprint(hashes.SHA256()).hex(),full_root_chain_verified=False,delegated_responder=signer.fingerprint(hashes.SHA256())!=issuer.fingerprint(hashes.SHA256()),delegated_responder_revocation_verified=False),'status':'PASS' if status==ocsp.OCSPCertStatus.GOOD else 'FAIL'}

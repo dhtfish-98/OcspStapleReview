@@ -27,3 +27,7 @@ Primary references: [libsodium point arithmetic](https://libsodium.gitbook.io/do
 ## Defensive use and application evidence
 
 Inputs must belong to the authorized reviewer. Runtime performs no fetch, sample execution, private-key processing, key export, signing, remote modification or outbound communication. CVP organizational eligibility, evidence of a legitimate blocked task, application review and program acceptance remain OPEN. These local results alone do not establish them.
+
+## Re-audited supported semantics
+
+As a strict profile consistency requirement, revoked revocationTime must be at or before the SingleResponse thisUpdate status time. Contradictory evidence is FAIL with complete=false; consistent authenticated revoked evidence remains FAIL with complete=true. This follows the status and revocation time meanings in [RFC 6960 section 2.4](https://www.rfc-editor.org/rfc/rfc6960.html#section-2.4), without adding responder-revocation or root-path validation.
