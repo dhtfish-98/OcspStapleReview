@@ -1,0 +1,14 @@
+{
+  "project": "OcspStapleReview",
+  "status": "PASS",
+  "test_count": 11,
+  "wheel": "cvp_ocsp_staple_review-0.1.0-py3-none-any.whl",
+  "wheel_sha256": "3f49a5009478d69828f8074ecd484d16e3fd8b56a8c5f82cb802dfe30abfef55",
+  "verification": "Local supported and malformed input tests, wheel build, separate install, imported package origin and CLI checks",
+  "reproduction": [
+    "python -m pip install .",
+    "python -m unittest discover -s tests -v",
+    "python -m pip wheel --no-deps --wheel-dir artifacts ."
+  ],
+  "limits": "Point-in-time engineering evidence only; CVP qualification and approval remain OPEN"
+}

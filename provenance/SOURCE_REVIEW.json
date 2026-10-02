@@ -1,0 +1,37 @@
+{
+  "source_repository": "https://github.com/digicert/pkilint",
+  "source_commit": "820a6146e255205b8b633de3e36856f011a628e3",
+  "source_license": "MIT",
+  "source_archive_sha256": "0032bb47ccab1b72dc529944e581cfe4322d2b30e311d3a55b57b7133dd7ea62",
+  "review_focus": [
+    "BasicOCSPResponse structure/freshness source lint rules",
+    "new independent direct issuer, target and signature validation profile"
+  ],
+  "complete_selected_files_retained_in_research_archive": true,
+  "research_archive_path": "identity/upstream/ocsp",
+  "selected_files": [
+    {
+      "path": "pkilint/pkix/ocsp/ocsp_validity.py",
+      "sha256": "c2d9172b3cbfedb33c14511af8dfd1b1f3b07c53a517adfb635a7084b2f82c27",
+      "bytes": 761,
+      "lines": 18,
+      "url": "https://github.com/digicert/pkilint/blob/820a6146e255205b8b633de3e36856f011a628e3/pkilint/pkix/ocsp/ocsp_validity.py"
+    },
+    {
+      "path": "pkilint/pkix/ocsp/ocsp_basic_response.py",
+      "sha256": "aacb870ac860fb90747691d47ea74c12343fe76c7de0e92415416e84c783e230",
+      "bytes": 1666,
+      "lines": 51,
+      "url": "https://github.com/digicert/pkilint/blob/820a6146e255205b8b633de3e36856f011a628e3/pkilint/pkix/ocsp/ocsp_basic_response.py"
+    },
+    {
+      "path": "pkilint/pkix/ocsp/ocsp_response.py",
+      "sha256": "32bb60e3dfbf0e5afe61c9619140c5c2737c9644a0264c2f2beaba170ae50c85",
+      "bytes": 2605,
+      "lines": 80,
+      "url": "https://github.com/digicert/pkilint/blob/820a6146e255205b8b633de3e36856f011a628e3/pkilint/pkix/ocsp/ocsp_response.py"
+    }
+  ],
+  "new_implementation_all_source_files_reviewed": true,
+  "whole_upstream_platform_equivalence": false
+}
