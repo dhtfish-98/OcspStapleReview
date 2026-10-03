@@ -1,0 +1,30 @@
+{
+  "schema": "project-build-layout.v1",
+  "project": "OcspStapleReview",
+  "author": "dhtfish98",
+  "kind": "python",
+  "base_public_commit": "77b5e6fff94e3e4fb10baf54697c12358cd85702",
+  "restored_inputs": [
+    {
+      "original": "LICENSE",
+      "stored": "项目文档/LICENSE",
+      "sha256": "de926d6c22d9e061af6158b0f23146ce036bfb2a562f2f406acec2dc4bd8b298"
+    },
+    {
+      "original": "ORIGIN.md",
+      "stored": "项目文档/ORIGIN.md",
+      "sha256": "cc813f3186c44e488d819b4b04926d1111c20aca66279e6c44161bedf5cfb000"
+    },
+    {
+      "original": "README.md",
+      "stored": "项目文档/README.md",
+      "sha256": "1090a1680a6120022d8b7a1a8d42fa1fbcd1d2d75929f9181560d33a99104c9b"
+    },
+    {
+      "original": "VALIDATION.md",
+      "stored": "项目文档/VALIDATION.md",
+      "sha256": "ad2690eebedfbdc53bcf71a32958b26dd3669ddc8cfe6f86fedb2e40774c3d99"
+    }
+  ],
+  "platform_entries": []
+}
