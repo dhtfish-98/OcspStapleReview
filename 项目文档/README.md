@@ -2,7 +2,7 @@
 
 # OcspStapleReview
 
-New implementation author: **dhtfish98**. Package version: **0.1.3**.
+New implementation author: **dhtfish98**. Package version: **0.1.4**.
 
 Offline RFC 6960 single-response signature, issuer/serial binding, responder authorization, nonce and freshness verification with a pinned direct issuer.
 
